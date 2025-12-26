@@ -1,0 +1,16 @@
+# Large data and outputs
+DATASTORE/
+*.nc
+*.tif
+*.csv
+*.zip
+
+# Python
+__pycache__/
+*.pyc
+
+# Jupyter
+.ipynb_checkpoints/
+
+# OS
+Thumbs.db
