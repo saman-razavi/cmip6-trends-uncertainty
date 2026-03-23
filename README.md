@@ -1,6 +1,6 @@
-# CMIP6 Trends and Uncertainty
+# CMIP6 Trends, Uncertainties, and Extremes
 
-This repository provides a **reproducible, uncertainty-aware workflow** for analysing **long-term trends in CMIP6 climate projections** and quantifying the associated uncertainties across models, scenarios, and time horizons.
+This repository provides a **reproducible, uncertainty-aware workflow** for analysing **long-term trends in CMIP6 climate projections** and quantifying the associated uncertainties across models, scenarios, and time horizons. Analyzing and visualizing meteorological projections from GCMs over North America, focusing on ecoregions, watersheds, and climate extremes. The project evaluates future climate variables, seasonal and annual trends, climate indices, and model uncertainties using a multi-model ensemble approach.
 
 The project is designed for **research, teaching, and downstream impact modelling**, with a strong emphasis on transparency, reproducibility, and good software engineering practice.
 
@@ -16,7 +16,10 @@ The main objectives of this project are to:
   - scenario uncertainty (SSPs)
   - internal variability (where feasible)
 - Produce **clean, well-documented outputs** suitable for downstream hydrologic, hydraulic, and impact models
+- 
 - Provide **teaching-oriented notebooks** that clearly explain assumptions, methods, and limitations
+
+
 
 This repository is **not** intended to:
 - develop or compare climate models
