@@ -1,7 +1,7 @@
-# CMIP6 Trends, Uncertainties, and Extremes
+# CMIP6 Trends, Uncertainties, and Extreme Indices
 
 This repository provides a **reproducible, uncertainty-aware workflow** for analysing **long-term trends in CMIP6 climate projections** and quantifying the associated uncertainties across models, scenarios, and time horizons. 
-It focuses on meteorological projections from Global Climate Models (GCMs) across North America, with detailed analyses of ecoregional variability at the continental scale. In addition, the project places particular emphasis on watershed-scale dynamics and extreme climate events within Canada.
+It is organized into three sub-projects: (1) North American ecoregional analysis of GCM projections, (2) Canadian watershed-scale climate assessments, and (3) climate extreme indices for Canadian watersheds.
 
 The project is designed for **research, teaching, and downstream impact modelling**, with a strong emphasis on transparency, reproducibility, and good software engineering practice.
 
@@ -18,7 +18,7 @@ The main objectives of this project are to:
   - internal variability (where feasible)
 - Evaluate spatial variability **across North America**, with **ecoregion-scale** analyses of climate responses
 - Investigate **watershed-scale climate dynamics in Canada**, producing **clean, well-documented outputs** suitable for downstream hydrologic, hydraulic, and impact models 
-- Evaluate **climate extreme indices and extremes** (e.g., Warm Spell, CDDM, TRC) for selected watersheds
+- Evaluate **climate extreme indices** (e.g., Warm Spell, CDDM, TRC) for selected watersheds
 - Provide **teaching-oriented notebooks** that clearly explain assumptions, methods, and limitations
 
 
