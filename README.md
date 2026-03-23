@@ -25,6 +25,25 @@ This repository is **not** intended to:
 
 ---
 
+## Project Workflow
+
+### 1. Ecoregion-level Analysis
+- Compute future climate projections for each ecoregion and compare seasonal and annual trends across 21 GCMs.  
+- Assess projections for **near-term (2025–2050), mid-term (2050–2075), and long-term (2075–2100)** periods and analyze changes relative to historical hindcasts (~25-year baseline, 1990–2015).  
+- Depict model uncertainty.
+
+### 2. Watershed-level Analysis
+- Select specific basins in **Canada** for detailed future projection analysis.  
+- Depict model predictions of variables over the **historical and future periods (1950–2100)**.  
+- Depict model uncertainty.
+
+### 3. Climate Indices & Extremes
+- Calculate indices such as **Warm Spell, CDDM, TRC** and other metrics related to extreme events for the selected watersheds.  
+- Analyze indices over **historical and future periods (1950–2100)**.  
+- Assess model agreement in predicting extreme events.
+
+---
+
 ## Design Philosophy
 
 This project follows a few guiding principles:
