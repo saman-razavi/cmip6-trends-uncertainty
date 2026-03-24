@@ -259,14 +259,8 @@ The workflow is reproducible if:
 
 ## Future Work
 
-- Extend to additional variables  
-- Include climate extreme indices  
+- Extend to additional variables    
 - Improve spatial weighting methods  
-- Optimize performance  
 - Develop advanced visualization tools  
 
----
 
-## License
-
-This project is released under the MIT License.
