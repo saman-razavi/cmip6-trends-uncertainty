@@ -228,6 +228,7 @@ figures/pr_winter_canadian_rockies.jpg
 ---
 
 ## Repository Structure
+```text
 ├── data/
 │ └── model_selection.csv
 ├── scripts/
@@ -243,7 +244,7 @@ figures/pr_winter_canadian_rockies.jpg
 │ ├── pr_winter_temperate_prairie.jpg
 │ └── pr_winter_canadian_rockies.jpg
 └── README.md
-
+```
 ---
 
 ## Reproducibility
