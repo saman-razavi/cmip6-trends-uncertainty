@@ -80,9 +80,9 @@ ExtremeProjections/
 ├── README.md
 ├── data/
 ├── Projects/
-│   ├── ecoregion_analysis/
-│   ├── watershed_analysis/
-│   └── climate_indices/
+│   ├── 1-ecoregion_analysis/
+│   ├── 2-watershed_analysis/
+│   └── 3-Climate_Extreme_Indices/
 ├── notebooks/
 └── results/
 ```
