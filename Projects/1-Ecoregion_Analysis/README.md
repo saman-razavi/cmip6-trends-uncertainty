@@ -264,6 +264,7 @@ figures/pr_winter_canadian_rockies.jpg
 │   ├── spatial_clip_parallel.py
 │   ├── Sliced_NorthAmerica.ipynb
 │   ├── EcoClip-50percentArea.ipynb
+│   ├── Ave25yearSpan_Season_Variable.ipynb
 │   ├── interactive_plot_pr.ipynb
 │   └── interactive_plot_tas.ipynb
 ├── outputs/
