@@ -83,7 +83,8 @@ e.g. data/model_selection.csv
 Downloaded daily climate data for:
 
 - Historical period: 1950–2014  
-- Future projections: 2015–2100 (multiple scenarios)  
+- Future projections: 2015–2100 (multiple scenarios)
+- 9315 NetCDF files (~1.5 TB) per variable 
 
 Script:
 e.g. scripts/download_data.py
