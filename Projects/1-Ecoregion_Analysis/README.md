@@ -172,7 +172,9 @@ Script:
 e.g. scripts/temporal_aggregation.py
 
 Output:
-e.g. outputs/final_aggregated.csv
+Ave25yearSpan_pr.csv
+Ave25yearSpan_tas.csv
+(Variable-specific aggregated outputs used for visualization)
 
 ---
 
@@ -187,8 +189,20 @@ An interactive script is provided to:
   - Ensemble mean projections  
   - Model uncertainty ranges and distributions  
 
-Script:
-e.g. scripts/plot_interactive.py
+**Script:**  
+`scripts/plot_interactive.py`
+
+**Required Inputs:**
+
+- **Aggregated climate outputs (from temporal aggregation):**
+  - `outputs/Ave25yearSpan_pr.csv`
+  - `outputs/Ave25yearSpan_tas.csv`
+
+- **Ecoregion metadata:**
+  - `data/EcoRegionCode.csv`
+
+- **Reference map:**
+  - `data/NA_LEVEL_III.jpg`
 
 Inputs:
 
@@ -224,26 +238,29 @@ figures/pr_winter_canadian_rockies.jpg
 - Processing scales with:
   - Number of models  
   - Spatial resolution  
-  - Number of ecoregions  
+  - Level (number) of ecoregions  
 
 ---
 
 ## Repository Structure
 ```text
 ├── data/
-│ └── model_selection.csv
+│   ├── model_selection.csv
+│   ├── EcoRegionCode.csv
+│   └── NA_LEVEL_III.jpg
 ├── scripts/
-│ ├── download_data.py
-│ ├── merge_and_slice.py
-│ ├── prepare_ecoregions.py
-│ ├── spatial_clip_parallel.py
-│ ├── temporal_aggregation.py
-│ └── plot_interactive.py
+│   ├── download_data.py
+│   ├── merge_and_slice.py
+│   ├── prepare_ecoregions.py
+│   ├── spatial_clip_parallel.py
+│   ├── temporal_aggregation.py
+│   └── plot_interactive.py
 ├── outputs/
-│ └── final_aggregated.csv
+│   ├── Ave25yearSpan_pr.csv
+│   └── Ave25yearSpan_tas.csv
 ├── figures/
-│ ├── pr_winter_temperate_prairie.jpg
-│ └── pr_winter_canadian_rockies.jpg
+│   ├── pr_winter_temperate_prairie.jpg
+│   └── pr_winter_canadian_rockies.jpg
 └── README.md
 ```
 ---
