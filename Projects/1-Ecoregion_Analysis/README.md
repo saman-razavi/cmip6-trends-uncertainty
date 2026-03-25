@@ -267,7 +267,7 @@ figures/pr_winter_canadian_rockies.jpg
 ├── outputs/
 │   ├── EcoregionAve25yearSpan_pr.csv
 │   └── EcoregionAve25yearSpan_tas.csv
-├── figures/e.g.
+├── figure_examples
 │   ├── pr_winter_temperate_prairie.jpg
 │   └── pr_winter_canadian_rockies.jpg
 └── README.md
