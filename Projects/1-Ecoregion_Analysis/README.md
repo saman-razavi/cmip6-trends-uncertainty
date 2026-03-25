@@ -1,4 +1,4 @@
-# Ecoregion-Based Climate Projections Analysis (CMIP6)
+# Ecoregion-Based Climate Projections Analysis (CMIP6) 
 
 This repository provides a **reproducible workflow for analyzing downscaled CMIP6 climate projections** across North America using an **ecoregion-based spatial framework**.  
 
