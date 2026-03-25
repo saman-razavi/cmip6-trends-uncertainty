@@ -259,7 +259,7 @@ figures/pr_winter_canadian_rockies.jpg
 │   └── NA_LEVEL_III.jpg
 ├── scripts/
 │   ├── NASA_DownloadScript.ipynb
-│   ├── merge_and_slice.py
+│   ├── Merge_NetCDF.ipynb
 │   ├── prepare_ecoregions.py
 │   ├── spatial_clip_parallel.py
 │   ├── temporal_aggregation.py
