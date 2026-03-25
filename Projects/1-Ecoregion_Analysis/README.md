@@ -65,6 +65,20 @@ These represent ecologically consistent areas based on climate, vegetation, soil
 
 ---
 
+### Additional Data for Visualization
+
+The final visualization script (`plot_interactive.py`) requires the following supporting files:
+
+**Level III Ecoregion Map**
+- `NA_LEVEL_III.jpg`  
+- Used as a visual reference for selecting and displaying ecoregions  
+
+**Ecoregion Metadata**
+- `EcoRegionCode.csv`  
+- Contains mapping between ecoregion codes and names  
+
+---
+
 ## Workflow Overview
 
 ### 1. Model Selection
@@ -193,16 +207,11 @@ An interactive script is provided to:
 `scripts/plot_interactive.py`
 
 **Required Inputs:**
-
-- **Aggregated climate outputs (from temporal aggregation):**
-  - `outputs/Ave25yearSpan_pr.csv`
-  - `outputs/Ave25yearSpan_tas.csv`
-
-- **Ecoregion metadata:**
-  - `data/EcoRegionCode.csv`
-
-- **Reference map:**
-  - `data/NA_LEVEL_III.jpg`
+- Aggregated climate outputs (from temporal aggregation):
+  - `outputs/EcoregionAve25yearSpan_pr.csv`
+  - `outputs/EcoregionAve25yearSpan_tas.csv`
+- Aggregated CSV file
+- Reference ecoregion map (JPG)
 
 Inputs:
 
@@ -256,9 +265,9 @@ figures/pr_winter_canadian_rockies.jpg
 │   ├── temporal_aggregation.py
 │   └── plot_interactive.py
 ├── outputs/
-│   ├── Ave25yearSpan_pr.csv
-│   └── Ave25yearSpan_tas.csv
-├── figures/
+│   ├── EcoregionAve25yearSpan_pr.csv
+│   └── EcoregionAve25yearSpan_tas.csv
+├── figures/e.g.
 │   ├── pr_winter_temperate_prairie.jpg
 │   └── pr_winter_canadian_rockies.jpg
 └── README.md
