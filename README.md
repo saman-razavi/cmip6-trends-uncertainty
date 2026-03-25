@@ -76,15 +76,12 @@ cmip6-trends-uncertainty/
 ```
 
 ```text
-ExtremeProjections/
+cmip6-trends-uncertainty/
 ├── README.md
-├── data/
 ├── Projects/
 │   ├── 1-ecoregion_analysis/
 │   ├── 2-watershed_analysis/
 │   └── 3-Climate_Extreme_Indices/
-├── notebooks/
-└── results/
 ```
 
 ---
