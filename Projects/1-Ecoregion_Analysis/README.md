@@ -263,7 +263,8 @@ figures/pr_winter_canadian_rockies.jpg
 │   ├── prepare_ecoregions.py
 │   ├── spatial_clip_parallel.py
 │   ├── temporal_aggregation.py
-│   └── plot_interactive.py
+│   ├── interactive_plot_pr.ipynb
+│   └── interactive_plot_tas.ipynb
 ├── outputs/
 │   ├── EcoregionAve25yearSpan_pr.csv
 │   └── EcoregionAve25yearSpan_tas.csv
