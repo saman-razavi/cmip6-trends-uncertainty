@@ -262,6 +262,7 @@ figures/pr_winter_canadian_rockies.jpg
 │   ├── Merge_NetCDF.ipynb
 │   ├── Ecoregion_Shapefile_Reprojection.ipynb
 │   ├── spatial_clip_parallel.py
+│   ├── Sliced_NorthAmerica.ipynb
 │   ├── temporal_aggregation.py
 │   ├── interactive_plot_pr.ipynb
 │   └── interactive_plot_tas.ipynb
@@ -276,6 +277,7 @@ figures/pr_winter_canadian_rockies.jpg
 └── README.md
 ```
 ---
+Sliced_NorthAmerica.ipynb
 
 ## Reproducibility
 
