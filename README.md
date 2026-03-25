@@ -79,9 +79,9 @@ cmip6-trends-uncertainty/
 cmip6-trends-uncertainty/
 ├── README.md
 ├── Projects/
-│   ├── 1-ecoregion_analysis/
-│   ├── 2-watershed_analysis/
-│   └── 3-Climate_Extreme_Indices/
+    ├── 1-ecoregion_analysis/
+    ├── 2-watershed_analysis/
+    └── 3-Climate_Extreme_Indices/
 ```
 
 ---
