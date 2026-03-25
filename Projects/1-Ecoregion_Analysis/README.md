@@ -258,7 +258,7 @@ figures/pr_winter_canadian_rockies.jpg
 │   ├── EcoRegionCode.csv
 │   └── NA_LEVEL_III.jpg
 ├── scripts/
-│   ├── download_data.py
+│   ├── NASA_DownloadScript.ipynb
 │   ├── merge_and_slice.py
 │   ├── prepare_ecoregions.py
 │   ├── spatial_clip_parallel.py
