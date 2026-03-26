@@ -50,33 +50,6 @@ A core principle is:
 
 ```text
 cmip6-trends-uncertainty/
-├─ README.md
-├─ environment.yml
-├─ notebooks/
-│  ├─ 00_overview.ipynb
-│  ├─ 01_data_selection.ipynb
-│  ├─ 02_preprocessing.ipynb
-│  ├─ 03_trend_analysis.ipynb
-│  ├─ 04_uncertainty_decomposition.ipynb
-│  └─ 05_outputs_for_models.ipynb
-├─ src/
-│  └─ cmip6_trends_uncertainty/
-│     ├─ __init__.py
-│     ├─ io.py              # NetCDF I/O and data access
-│     ├─ preprocessing.py  # units, calendars, aggregation
-│     ├─ trends.py          # trend estimation logic
-│     ├─ ensemble.py        # ensemble statistics
-│     ├─ uncertainty.py     # uncertainty decomposition
-│     └─ plotting.py        # visualisation utilities
-├─ scripts/
-│  └─ run_trend_analysis.py
-├─ configs/
-│  └─ demo_case.yaml
-└─ DATASTORE/
-```
-
-```text
-cmip6-trends-uncertainty/
 ├── README.md
 └── Projects/
     ├── 1-ecoregion_analysis/
